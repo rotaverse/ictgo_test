@@ -1,0 +1,6 @@
+.dfx/
+node_modules/
+dist/
+
+src/example/src/wasm_exec.js
+src/example/assets/main.wasm

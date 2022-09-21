@@ -1,0 +1,29 @@
+* {
+    font-family: 'PT Mono', monospace;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box div {
+    min-width: 400px;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    width: 392px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}

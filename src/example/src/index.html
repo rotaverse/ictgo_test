@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Golang on the IC</title>
+    <base href="/">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link type="text/css" rel="stylesheet" href="main.css" />
+    <script src="wasm_exec.js"></script>
+    <script src="load.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="text" id="name"/>
+            <br />
+            <br />
+            <select id="gender" disabled=true>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <button id="generate" type="button" disabled=true>Generate</button>
+            <button id="generateRandom" type="button" disabled=true>Random</button>
+            <br />
+            <br />
+            <img src="" id="img" />
+            <br />
+            <p>Build by <a href="https://twitter.com/quint_av8">quint</a> (@<a href="https://github.com/aviate-labs">Aviate Labs</a>)</p>
+        </div>
+    </div>
+</body>
+
+</html>
